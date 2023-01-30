@@ -1,2 +1,6 @@
 const text: string = 'Hello TypeScript';
-console.log(text);
+document.querySelector('#btn-models').addEventListener('click', (e:Event) => getModels());
+
+function getModels() {
+    console.log(text);
+}
